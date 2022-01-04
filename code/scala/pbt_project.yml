@@ -2,6 +2,21 @@ name: sheena.kunde
 description: User fork
 version: 1
 author: brock.halvorson@hotmail.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: brock.halvorson@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 15:58:50'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Josefina_Rosenbaum:
+    name: Josefina_Rosenbaum
+    description: Really solid info
+    createdAt: '2022-01-04 15:58:50'
+    author: brock.halvorson@hotmail.com
